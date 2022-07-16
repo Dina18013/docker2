@@ -9,6 +9,6 @@ services:
       POSTGRES_PASSWORD:
     9mREsvXDs9Gk89Ef
       volumes:
-        - ./data:/var/lib/postgreSQL/data
+        - ./data:/var/lib/postgresql/data
       ports:
         - "5432:5432"
